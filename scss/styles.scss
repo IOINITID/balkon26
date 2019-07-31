@@ -374,3 +374,45 @@ body {
 .types-of-houses-list {
   padding-bottom: 60px;
 }
+
+.types-of-jobs {
+  padding: 50px 0 75px 0;
+
+  h2 {
+    color: #000000;
+    font-family: "Muller";
+    font-size: 34px;
+    font-weight: 900;
+    padding-bottom: 50px;
+  }
+
+  ol {
+    list-style: none;
+    padding: 0;
+
+    li {
+      counter-increment: i;
+      display: flex;
+      align-items: center;
+      margin-bottom: 32px;
+
+      &::before {
+        content: counter(i);
+        color: #000000;
+        font-family: "Segoe UI";
+        font-size: 14px;
+        font-weight: 400;
+        width: 32px;
+        height: 32px;
+        top: 0;
+        border: 2px solid #ffda44;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
