@@ -1,1 +1,335 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeue.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("../fonts/Muller.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/SegoeUI.woff") format("woff");
+}
+
+body {
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+}
+
+.header-background {
+  background-image: url("../img/types-of-houses-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 540px;
+  position: relative;
+}
+
+.background-filter {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header-top {
+  padding-top: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-logo-wrapper a img {
+  width: 100%;
+}
+
+.header-navigation-wrapper nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-navigation-wrapper nav ul li {
+  padding-right: 20px;
+}
+
+.header-navigation-wrapper nav ul li a {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.header-address-wrapper address {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header-address-wrapper address span {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.header-address-wrapper address p {
+  color: #ffffff;
+  margin: 0;
+  font-size: 12px;
+}
+
+.header-contacts-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header-contacts-wrapper a {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.header-contacts-wrapper span {
+  color: #ffffff;
+}
+
+.header-contacts-wrapper span a {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.header-bottom {
+  padding-top: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header-bottom h1 {
+  color: #ffffff;
+  font-family: "Muller";
+  font-size: 34px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.header-bottom p {
+  color: #ffda44;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 90px;
+  margin: 0;
+}
+
+.header-bottom a {
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  background-color: #ffda44;
+  padding: 13px 60px;
+}
+
+.finishing-and-insulation {
+  padding: 50px 0 95px 0;
+}
+
+.finishing-and-insulation h2 {
+  color: #000000;
+  font-family: "Muller";
+  font-size: 34px;
+  font-weight: 900;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.interior-decoration-wrapper,
+.exterior-finish-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.interior-decoration-text-wrapper,
+.exterior-finish-text-wrapper {
+  padding: 17px 0 17px 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.interior-decoration-text-wrapper h3,
+.exterior-finish-text-wrapper h3 {
+  margin: 0;
+  color: #000000;
+  font-family: "Muller";
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.interior-decoration-text-wrapper p,
+.exterior-finish-text-wrapper p {
+  margin: 0;
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.interior-decoration-order,
+.exterior-finish-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.interior-decoration-order span,
+.exterior-finish-order span {
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.interior-decoration-order a,
+.exterior-finish-order a {
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  background-color: #ffda44;
+  padding: 8px 60px;
+}
+
+.advantages-background {
+  background-image: url("../img/advantages-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 543px;
+  position: relative;
+}
+
+.advantages-wrapper {
+  padding: 50px 0 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.advantages-wrapper h2 {
+  color: #ffffff;
+  font-family: "Muller";
+  font-size: 34px;
+  font-weight: 900;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+.advantages-wrapper a {
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  background-color: #ffda44;
+  padding: 16px 60px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.advantages-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 50px;
+}
+
+.advantages-item img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-bottom: 17px;
+}
+
+.advantages-item h3 {
+  color: #ffda44;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.advantages-item p {
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  margin: 0;
+  width: 184px;
+}
+/*# sourceMappingURL=styles.css.map */
