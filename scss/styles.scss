@@ -19,7 +19,7 @@ body {
 }
 
 .header-background {
-  background-image: url("../img/types-of-houses-background.jpg");
+  background-image: url("../img/header-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -42,7 +42,8 @@ body {
   align-items: center;
 }
 
-.header-logo-wrapper {
+.header-logo-wrapper,
+.footer-logo-wrapper {
   a {
     img {
       width: 100%;
@@ -50,7 +51,8 @@ body {
   }
 }
 
-.header-navigation-wrapper {
+.header-navigation-wrapper,
+.footer-navigation-wrapper {
   nav {
     ul {
       display: flex;
@@ -70,7 +72,8 @@ body {
   }
 }
 
-.header-address-wrapper {
+.header-address-wrapper,
+.footer-address-wrapper {
   address {
     margin: 0;
     display: flex;
@@ -91,7 +94,8 @@ body {
   }
 }
 
-.header-contacts-wrapper {
+.header-contacts-wrapper,
+.footer-contacts-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -472,21 +476,77 @@ body {
 
 .map {
   position: relative;
+  width: 100%;
+  height: 458px;
 
   iframe {
     width: 100%;
-    height: 458px;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
 
     img {
       width: 100%;
-      height: 458px;
+      height: 100%;
       position: absolute;
       top: 0;
       left: 0;
       object-fit: cover;
     }
+  }
+}
+
+.footer-background {
+  background-color: #000000;
+}
+
+.footer-border-bottom {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.footer-top {
+  padding: 100px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom {
+  padding: 40px 0;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 73px;
+
+  p {
+    margin: 0;
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+
+    a {
+      color: #ffda44;
+      font-family: "Helvetica Neue";
+      font-size: 12px;
+    }
+  }
+}
+
+.design {
+  a {
+    img {
+      margin-bottom: 5px;
+    }
+  }
+
+  p {
+    color: #9b9b9b;
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    font-weight: 400;
   }
 }

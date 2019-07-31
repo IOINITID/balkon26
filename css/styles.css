@@ -19,7 +19,7 @@ body {
 }
 
 .header-background {
-  background-image: url("../img/types-of-houses-background.jpg");
+  background-image: url("../img/header-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -46,11 +46,13 @@ body {
           align-items: center;
 }
 
-.header-logo-wrapper a img {
+.header-logo-wrapper a img,
+.footer-logo-wrapper a img {
   width: 100%;
 }
 
-.header-navigation-wrapper nav ul {
+.header-navigation-wrapper nav ul,
+.footer-navigation-wrapper nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,16 +61,19 @@ body {
   margin: 0;
 }
 
-.header-navigation-wrapper nav ul li {
+.header-navigation-wrapper nav ul li,
+.footer-navigation-wrapper nav ul li {
   padding-right: 20px;
 }
 
-.header-navigation-wrapper nav ul li a {
+.header-navigation-wrapper nav ul li a,
+.footer-navigation-wrapper nav ul li a {
   color: #ffffff;
   font-size: 14px;
 }
 
-.header-address-wrapper address {
+.header-address-wrapper address,
+.footer-address-wrapper address {
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82,19 +87,22 @@ body {
           align-items: flex-end;
 }
 
-.header-address-wrapper address span {
+.header-address-wrapper address span,
+.footer-address-wrapper address span {
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
 }
 
-.header-address-wrapper address p {
+.header-address-wrapper address p,
+.footer-address-wrapper address p {
   color: #ffffff;
   margin: 0;
   font-size: 12px;
 }
 
-.header-contacts-wrapper {
+.header-contacts-wrapper,
+.footer-contacts-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,17 +115,20 @@ body {
           align-items: flex-end;
 }
 
-.header-contacts-wrapper a {
+.header-contacts-wrapper a,
+.footer-contacts-wrapper a {
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
 }
 
-.header-contacts-wrapper span {
+.header-contacts-wrapper span,
+.footer-contacts-wrapper span {
   color: #ffffff;
 }
 
-.header-contacts-wrapper span a {
+.header-contacts-wrapper span a,
+.footer-contacts-wrapper span a {
   font-size: 12px;
   font-weight: 400;
 }
@@ -558,11 +569,13 @@ body {
 
 .map {
   position: relative;
+  width: 100%;
+  height: 458px;
 }
 
 .map iframe {
   width: 100%;
-  height: 458px;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -570,11 +583,71 @@ body {
 
 .map iframe img {
   width: 100%;
-  height: 458px;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.footer-background {
+  background-color: #000000;
+}
+
+.footer-border-bottom {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.footer-top {
+  padding: 100px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-bottom {
+  padding: 40px 0;
+}
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 73px;
+}
+
+.copyright p {
+  margin: 0;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.copyright p a {
+  color: #ffda44;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+}
+
+.design a img {
+  margin-bottom: 5px;
+}
+
+.design p {
+  color: #9b9b9b;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-weight: 400;
 }
 /*# sourceMappingURL=styles.css.map */
