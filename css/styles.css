@@ -332,4 +332,115 @@ body {
   margin: 0;
   width: 184px;
 }
+
+.price-for-balconies {
+  padding: 50px 0 52px 0;
+}
+
+.price-for-balconies h2 {
+  margin: 0;
+  color: #000000;
+  font-family: "Muller";
+  font-size: 34px;
+  font-weight: 900;
+  padding-bottom: 70px;
+}
+
+.price-for-balconies-item {
+  margin-bottom: 68px;
+}
+
+.price-for-balconies-item h3 {
+  color: #000000;
+  font-family: "Muller";
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 9px;
+}
+
+.price-for-balconies-item img {
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+.price-for-balconies-list-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.price-for-balconies-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 400px;
+  margin: 0 auto 11px auto;
+}
+
+.price-for-balconies-list-item p {
+  margin: 0;
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.price-for-balconies-list-item a {
+  color: #ffca51;
+  font-family: "Segoe UI";
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.types-of-houses-background {
+  background-image: url("../img/types-of-houses-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 599px;
+  position: relative;
+}
+
+.types-of-houses {
+  padding: 50px 0 55px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.types-of-houses h2 {
+  color: #ffffff;
+  font-family: "Muller";
+  font-size: 34px;
+  font-weight: 900;
+  padding-bottom: 50px;
+}
+
+.types-of-houses a {
+  color: #000000;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  background-color: #ffda44;
+  padding: 8px 60px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.types-of-houses-list {
+  padding-bottom: 60px;
+}
 /*# sourceMappingURL=styles.css.map */
