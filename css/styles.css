@@ -709,6 +709,7 @@ body {
   font-family: "Muller";
   font-size: 34px;
   font-weight: 900;
+  margin: 0;
 }
 
 .our-work .call-the-measurer {
@@ -728,5 +729,106 @@ body {
 
 .our-work-item a img {
   width: 100%;
+}
+
+.prices h2 {
+  padding-bottom: 50px;
+}
+
+.prices table {
+  margin-bottom: 44px;
+}
+
+.prices table tr:nth-of-type(2n) {
+  background: #ffffff;
+}
+
+.prices table tr:nth-of-type(2n) td {
+  padding: 16px 20px;
+}
+
+.prices table tr:nth-of-type(2n) td:nth-of-type(1) {
+  width: 780px;
+}
+
+.prices table tr:nth-of-type(2n) td:nth-of-type(2) {
+  width: 130px;
+  text-align: center;
+}
+
+.prices table tr:nth-of-type(2n) td:nth-of-type(3) {
+  width: 195px;
+  text-align: center;
+}
+
+.prices table tr:nth-of-type(2n) td:nth-of-type(4) {
+  width: 195px;
+  text-align: center;
+}
+
+.prices table tr:nth-of-type(2n) td:nth-of-type(1n + 2) {
+  border-left: 1px solid #ffffff;
+}
+
+.prices table tr:nth-of-type(2n + 1) {
+  background: #e8e7e7;
+}
+
+.prices table tr:nth-of-type(2n + 1) td {
+  padding: 16px 20px;
+}
+
+.prices table tr:nth-of-type(2n + 1) td:nth-of-type(1) {
+  width: 780px;
+}
+
+.prices table tr:nth-of-type(2n + 1) td:nth-of-type(2) {
+  width: 130px;
+  text-align: center;
+}
+
+.prices table tr:nth-of-type(2n + 1) td:nth-of-type(3) {
+  width: 195px;
+  text-align: center;
+}
+
+.prices table tr:nth-of-type(2n + 1) td:nth-of-type(4) {
+  width: 195px;
+  text-align: center;
+}
+
+.prices table tr:nth-of-type(2n + 1) td:nth-of-type(1n + 2) {
+  border-left: 1px solid #ffffff;
+}
+
+.prices table tr:first-child {
+  background: #ffda44;
+}
+
+.prices table tr:first-child th {
+  padding: 16px 20px;
+}
+
+.prices table tr:first-child th:nth-of-type(1) {
+  width: 780px;
+}
+
+.prices table tr:first-child th:nth-of-type(2) {
+  width: 130px;
+  text-align: center;
+}
+
+.prices table tr:first-child th:nth-of-type(3) {
+  width: 195px;
+  text-align: center;
+}
+
+.prices table tr:first-child th:nth-of-type(4) {
+  width: 195px;
+  text-align: center;
+}
+
+.prices table tr:first-child th:nth-of-type(1n + 2) {
+  border-left: 1px solid #ffffff;
 }
 /*# sourceMappingURL=styles.css.map */
