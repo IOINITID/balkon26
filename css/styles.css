@@ -906,4 +906,8 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.contacts {
+  padding-bottom: 140px;
+}
 /*# sourceMappingURL=styles.css.map */
