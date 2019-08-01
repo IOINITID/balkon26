@@ -1,16 +1,31 @@
 @font-face {
   font-family: "Helvetica Neue";
+  font-weight: 400;
   src: url("../fonts/HelveticaNeue.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Muller";
+  font-weight: 400;
   src: url("../fonts/Muller.otf") format("opentype");
 }
 
 @font-face {
+  font-family: "Muller";
+  font-weight: 900;
+  src: url("../fonts/MullerBlack.otf") format("opentype");
+}
+
+@font-face {
   font-family: "Segoe UI";
+  font-weight: 400;
   src: url("../fonts/SegoeUI.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 700;
+  src: url("../fonts/SegoeUIBold.woff") format("woff");
 }
 
 body {
@@ -649,5 +664,58 @@ body {
   font-family: "Helvetica Neue";
   font-size: 12px;
   font-weight: 400;
+}
+
+.header-inner {
+  height: 80px;
+}
+
+.header-top-inner {
+  padding-top: 13px;
+}
+
+.breadcrumbs {
+  padding: 21px 0;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.breadcrumbs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.breadcrumbs ul li a {
+  color: #000000;
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.breadcrumbs ul li .current {
+  color: #ffda44;
+}
+
+.breadcrumbs ul span {
+  padding: 0 5px;
+}
+
+.our-work h2 {
+  padding: 50px 0 43px 0;
+  color: #000000;
+  font-family: "Muller";
+  font-size: 34px;
+  font-weight: 900;
+}
+
+.our-work-item {
+  margin-bottom: 29px;
+}
+
+.our-work-item a img {
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
