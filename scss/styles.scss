@@ -745,6 +745,7 @@ body {
     font-weight: 400;
     color: #000000;
     margin-bottom: 20px;
+
     p {
       margin: 0;
     }
@@ -798,9 +799,14 @@ body {
 }
 
 .map-wrapper {
-  img {
+  iframe {
     width: 100%;
     height: 350px;
-    object-fit: cover;
+
+    img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
   }
 }

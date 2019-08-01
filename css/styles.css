@@ -895,7 +895,12 @@ body {
   margin: 0;
 }
 
-.map-wrapper img {
+.map-wrapper iframe {
+  width: 100%;
+  height: 350px;
+}
+
+.map-wrapper iframe img {
   width: 100%;
   height: 350px;
   -o-object-fit: cover;
